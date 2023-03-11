@@ -1,3 +1,12 @@
+// TODO
+// - Get rid of lorem ipsum
+// - Add loading/indicator for a simple user feedback
+// - Add UI elements for the options slang, tone and positive
+// - Add "size" slider
+// - Ensure responsive layout
+// - Copy to clipboard]
+// - MVP Done -> refer to README.md for future features.
+
 import React, { useState } from "react";
 import axios from "axios";
 

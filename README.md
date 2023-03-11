@@ -13,12 +13,12 @@ Too lazy to think what you should reply to your homeboy when he invites you to a
 - User selects settings which includes text size and tone (funny, serious, sad, etc.).
 - User puts in the text they want to reply in the textbox
 - App returns a reply based on user settings
-- Easy copy to clipboard
+- Copy to clipboard
 ### Functionality:
 - Ensures responsive accross all major browsers and screen sizes (phone, tablet, etc.)
 
 ## To-Do and Future Updates
 - Ability to save generated replies.
 - Create an account and access saved replies anyways.
-- Ensure mobile responsiveness
+- Better user feedback (loading animations, etc.)
 - Chat UI and animations
