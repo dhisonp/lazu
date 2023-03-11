@@ -34,8 +34,16 @@ app.get("/api", (req, res) => {
 
 app.post("/reply", async (req, res) => {
     const { text, slang, tone, positive } = req.body;
-    console.log(req.body);
-    const prompt = `generate reply with these settings: (slangs lowercase, casual, negative) reply under 16 words to "${text}"`;
+
+    // Settings
+    var settings = "";
+    if(slang) settings += "slangs lowercase,";
+    if(tone) settings += "casual,";
+    else settings += "formal,";
+    if(positive) settings += "positive,"
+    else settings += "negative,"
+
+    const prompt = `generate reply with these settings: ${settings} reply under 16 words to "${text}"`;
     const reply = await gpt(prompt);
 
     res.json({

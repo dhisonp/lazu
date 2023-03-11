@@ -13,12 +13,18 @@ function App() {
 
     const handleSubmit = () => {
         // e.preventDefault();
-        const data = new FormData;
-        data.append("text", text);
-        data.append("slang", slang);
-        data.append("tone", tone);
-        data.append("positive", positive);
-        console.log(data);
+        // const data = new FormData;
+        // data.append("text", text);
+        // data.append("slang", slang);
+        // data.append("tone", tone);
+        // data.append("positive", positive);
+        // console.log(data);
+        const data = {
+            text: text,
+            slang: slang,
+            tone: tone,
+            positive: positive,
+        };
         axios
             .post("http://localhost:4000/reply", data, {})
             .then((res) => {
