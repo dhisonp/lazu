@@ -18,7 +18,9 @@ Too lazy to think what you should reply to your homeboy when he invites you to a
 - Ensures responsive accross all major browsers and screen sizes (phone, tablet, etc.)
 
 ## To-Do and Future Updates
+- Save setting reusable setting templates
 - Ability to save generated replies.
 - Create an account and access saved replies anyways.
 - Better user feedback (loading animations, etc.)
 - Chat UI and animations
+- Full deployment using AWS
